@@ -1,0 +1,156 @@
+html{
+    background-color: #2a608e;
+}
+#main{
+    margin: 0px auto;
+    min-width: 923px;
+    max-width: 923px;
+    box-shadow: 4px 0px 6px #121 ;
+}
+#centerHeader{
+    /* margin-top: 13px; */
+    /* background-color: #000; */
+    background-image: url(images/head.png);
+    color: #fff;
+    text-align: center;
+    font-family: 'Kristen ITC';
+    src: URL('ITCKRIST.ttf') format('truetype');
+    min-width: 805px;
+    margin: 0px auto;
+}
+#header{
+    display: flex;
+    min-width: 960px;
+    max-width: 960px;
+    margin: 0px auto;
+}
+#other{
+    display: flex;
+}
+#fishyTable{
+    display: flex;
+}
+#footer{
+    display: flex;
+    max-width: 956px;
+    margin: 0px auto;
+}
+.brown{
+    background-color: #cbbf85;
+}
+.red{
+    color: #9d0000;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Kristen ITC';
+    src: URL('ITCKRIST.ttf') format('truetype');
+    font-weight:bolder;
+}
+#centerFooter{
+    background-image: url(images/foot.png);
+    background-repeat: repeat-x;
+    min-width: 905px;
+    max-width: 905px;
+}
+#hooky{
+    margin: 0px auto;
+}
+#hook{
+    min-width: 145px;
+    max-width: 145px;
+}
+#about{
+    column-count: 3;
+    padding: 15px 30px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+}
+#finestFish{
+    padding: 25px 0px 30px;
+    max-height: 82px;
+    margin: auto 0px;
+}
+#bubbaJoe{
+padding: 10px 0px 0px;
+}
+table{
+    font-family: 'Lato', sans-serif;
+    margin: 12px;
+    font-weight: 700;
+}
+#table{
+    border: 3px solid #9d0000;
+    border-radius: 10%;
+    margin-left: 24px;
+}
+p{
+    font-size: 30px;
+    padding-top: 25px;
+}
+@media screen and (max-width: 800px){
+#leftHeader{
+    display: none;
+}
+#rightHeader{
+    display: none;
+}
+#hook{
+    display: none;
+}
+#leftFooter{
+    display: none;
+}
+#rightFooter{
+    display: none;
+}
+#about{
+    column-count: 2;
+}
+#centerFooter{
+    min-height: 35px;
+    min-width: 800px;
+    max-width: 800px;
+}
+#centerHeader{
+    min-width: 800px;
+    max-width: 800px;
+    margin: 0px;
+}
+p{
+    font-size: 26px;
+    margin-left: 2px;
+}
+#main{
+    min-width: 700px;
+    max-width: 800px;
+}
+}
+@media screen and (max-width: 550px){
+#fishyTable{
+display: flex;
+flex-direction: column;
+}
+#about{
+    column-count: 1;
+}
+#main{
+    min-width: 550px;
+    max-width: 550px;
+}
+p{
+    font-size: 18px;
+    margin: 0px;
+}
+#centerHeader{
+    background-image: none;
+    background-color: #000;
+    min-width: 550px;
+    max-height: 60px;
+}
+#table{
+    border: none;
+}
+table{
+    margin: 0px auto;
+}
+}
